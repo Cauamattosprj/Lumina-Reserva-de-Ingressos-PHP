@@ -112,3 +112,8 @@ function check_login()
     $dbh = null;
 
 };
+
+function ticket_date_cookie($ticket_event_date) 
+{    
+    setcookie('ticket-date', $ticket_event_date, time() + 7000, "/");
+}

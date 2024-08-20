@@ -9,14 +9,10 @@
 </head>
 <body>
 
-    <nav id="navbar">
-        <img src="logo-lumina" alt="Logo Lumina">
-        <ul>
-            <li>Home</li>
-            <li>Categorias</li>
-            <li>Login</li>
-        </ul>
-    </nav>
+    <?php 
+    include './partials/navbar.php'
+    ?>
+    
 
     <h2>Eventos em cartaz:</h2>
     <ul class="catalog">
