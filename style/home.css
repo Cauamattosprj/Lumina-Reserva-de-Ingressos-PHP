@@ -1,0 +1,101 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações gerais do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo para a barra de navegação */
+#navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#navbar img {
+    max-height: 40px;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#navbar ul li {
+    color: #fff;
+    cursor: pointer;
+}
+
+#navbar ul li:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o título dos eventos */
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Estilo para o catálogo de eventos */
+.catalog {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 0;
+}
+
+.catalog a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.catalog li {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.catalog li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.catalog img {
+    width: 100%;
+    height: 150px;
+    display: block;
+    object-fit: cover;
+}
+
+.catalog span {
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.catalog h3 {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #eee;
+    border-top: 1px solid #ddd;
+}

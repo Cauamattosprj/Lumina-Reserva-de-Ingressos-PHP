@@ -1,0 +1,125 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#navbar img {
+    max-height: 40px;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#navbar ul li {
+    color: #fff;
+    cursor: pointer;
+}
+
+#navbar ul li:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section img {
+    width: 400px;
+    height: 300px; /* Mantém a proporção original da imagem */
+    max-height: 200px; /* Limita a altura máxima da imagem */
+    object-fit: cover; /* Cobre a área sem distorcer a imagem */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+section span {
+    display: block;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+section p {
+    width:400px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+#button {
+    display: inline-block;
+    padding: 10px 20px;
+    width: 200px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#button:hover {
+    background-color: #0056b3;
+}
+
+.calendar-ticket {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.calendar-ticket-days {
+    background-color: #dbdbdb;
+    width: 150px;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.calendar-ticket-days a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.calendar-ticket-days:hover {
+    background-color: cadetblue;
+    color: white;
+    transition: background-color .5s;
+}
+

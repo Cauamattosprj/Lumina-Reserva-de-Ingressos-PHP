@@ -1,0 +1,92 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações gerais do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para a imagem do logo */
+img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o formulário de login */
+.formulario-login {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para o campo de legendas */
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para os títulos e parágrafos */
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os rótulos dos campos */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para os campos de entrada */
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Estilo para o botão de envio */
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilo para links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Estilo para links em hover */
+a:hover {
+    text-decoration: underline;
+}
