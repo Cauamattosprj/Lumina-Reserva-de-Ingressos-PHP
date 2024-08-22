@@ -1,0 +1,70 @@
+/* compatibilidade */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* topo da página */
+
+#event-title {
+    align-items: center;
+    display: flex;
+    padding: 10px 10px;
+    background-color: #333;
+    color: white;
+}
+
+#event-title img {
+    border-radius: 5px;
+}
+
+#event-title span {
+    margin: 10px;
+}
+
+/* Assentos */
+
+#seats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#seats .checkbox {
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+
+#seats h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#submit {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 50px 0;
+}
+
+#submit:hover {
+    background-color: aquamarine;
+    color: black;
+    transition: background-color .2s;
+    cursor: pointer
+}
